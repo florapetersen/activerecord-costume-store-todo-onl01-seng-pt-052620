@@ -7,7 +7,8 @@ class CreateCostumes < ActiveRecord::Migration
       t.integer :size
       t.timestamp :created_at
       t.timestamp :updated_at
-    
+    end
+  end
 
 end
 
