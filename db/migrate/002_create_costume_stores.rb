@@ -7,6 +7,4 @@ class CreateCostumeStores < ActiveRecord::Migration[5.2]
       t.integer :number_employees
     end
   end
-
-
-end# Create your costume_stores migration here
+end
