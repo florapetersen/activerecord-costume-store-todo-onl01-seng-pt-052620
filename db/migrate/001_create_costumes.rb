@@ -1,6 +1,11 @@
 class CreateCostumes < ActiveRecord::Migration
   def change
-    create_column :name, :text
+    create_table :costumes do |t|
+      t.string :name
+      t.integer :price
+      t.string :url
+      t.integer :size
+      
 end
 
 # Create a class and inherit from ActiveRecord::Migration
