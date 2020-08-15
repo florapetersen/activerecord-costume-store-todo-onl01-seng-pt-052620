@@ -3,9 +3,12 @@ class CreateCostumes < ActiveRecord::Migration
     create_table :costumes do |t|
       t.string :name
       t.integer :price
-      t.string :url
+      t.string :image_url
       t.integer :size
-      
+      t.timestamp :created_at
+      t.timestamp :updated_at
+    
+
 end
 
 # Create a class and inherit from ActiveRecord::Migration
