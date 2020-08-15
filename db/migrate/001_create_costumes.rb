@@ -9,7 +9,6 @@ class CreateCostumes < ActiveRecord::Migration
       t.timestamp :updated_at
     end
   end
-
 end
 
 # Create a class and inherit from ActiveRecord::Migration
